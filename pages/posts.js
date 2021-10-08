@@ -1,6 +1,8 @@
+import Heading from '../components/Heading';
+
 const Posts = () => (
   <>
-    <h1>Page Posts</h1>
+    <Heading text="Post list:" />
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid
       magnam omnis ipsam sapiente reprehenderit culpa repudiandae aperiam

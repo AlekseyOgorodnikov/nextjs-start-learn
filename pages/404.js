@@ -1,7 +1,9 @@
+import Heading from '../components/Heading';
+
 const ErrorPage = () => (
   <>
-    <h1>404</h1>
-    <p>Somthing is going wrond...</p>
+    <Heading text="404" />
+    <Heading tag="h2" text="Somthing is going wrond..." />
   </>
 );
 

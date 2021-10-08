@@ -1,5 +1,7 @@
+import Heading from '../../components/Heading';
+
 const Contacts = () => {
-  return <h1>Contacts List:</h1>;
+  return <Heading text="Contacts List:" />;
 };
 
 export default Contacts;
