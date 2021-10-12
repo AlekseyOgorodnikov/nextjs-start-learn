@@ -1,8 +1,9 @@
-import Heading from './Heading';
+// import Heading from './Heading';
+import NavBar from './NavBar';
 
 const Header = () => (
   <header>
-    <Heading tag="h3" text="Header" />
+    <NavBar />
   </header>
 );
 
