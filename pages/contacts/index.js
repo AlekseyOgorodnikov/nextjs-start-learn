@@ -1,7 +1,15 @@
+import Head from 'next/head';
 import Heading from '../../components/Heading';
 
 const Contacts = () => {
-  return <Heading text="Contacts List:" />;
+  return (
+    <>
+      <Head>
+        <title>Contacts</title>
+      </Head>
+      <Heading text="Contacts List:" />
+    </>
+  );
 };
 
 export default Contacts;

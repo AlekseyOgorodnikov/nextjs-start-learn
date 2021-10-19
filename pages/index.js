@@ -1,11 +1,17 @@
+import Head from 'next/head';
 import Heading from '../components/Heading';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
   return (
-    <div className={styles.wrapper}>
-      <Heading text="Hello world BROOO!" />
-    </div>
+    <>
+      <Head>
+        <title>Home page</title>
+      </Head>
+      <div className={styles.wrapper}>
+        <Heading text="Hello world BROOO!" />
+      </div>
+    </>
   );
 };
 
